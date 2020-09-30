@@ -1,5 +1,8 @@
 # Cloudreve Heroku
 
+## 使用说明
+[使用说明](https://www.itansuo.info/444)
+
 ## 部署
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ifuaer/cloudreve-heroku)
