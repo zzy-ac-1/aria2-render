@@ -1,4 +1,7 @@
 #!/bin/sh
+
+## Aria2配置
+
 apt update -y
 apt install aria2 -y
 mkdir /etc/aria2
@@ -142,6 +145,7 @@ touch /etc/aria2/aria2.session
 chmod 777 /etc/aria2/aria2.session
 
 
+## cloudreve配置
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 ; 运行模式
@@ -166,6 +170,7 @@ Name = 	${DB_NAME}
 TablePrefix = ${DB_TABLEPREFIX}
 EOF
 
+## 运行
 aria2c --conf-path=/etc/aria2/aria2.conf -D
 
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
