@@ -14,13 +14,13 @@ SessionSecret = 7cF5vIg8XLKtFOLU2kFNgz6zAkDS8w2Lyw1qSlIkEAod5TewkKPqU9X9b4CtH3qS
 ; Hash 加盐, 一般在首次启动时自动生成
 HashIDSalt = kfIWhhcteuRACDnXtgkilGDgOdI8c6j2Prn9lUzossrOZn1pi46SXb80XFAaKMF3
 [Database]
-Type = mysql
-Port = 3306
+Type = ${DB_TYPE}
+Port = ${DB_PORT}
 User = ${DB_USER}
 Password = ${DB_PASSWORD}
 Host = ${DB_HOST}
 Name = 	${DB_NAME}
-TablePrefix = wd
+TablePrefix = ${BD_TABLEPREFIX}
 [Redis]
 Server = Redis地址：端口
 Password = Redis密码
