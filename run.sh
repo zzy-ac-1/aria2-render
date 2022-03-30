@@ -138,6 +138,7 @@ bt-detach-seed-only=true
 #BT Tracker List ;下载地址：https://github.com/ngosang/trackerslist
 bt-tracker=udp://tracker.coppersurfer.tk:6969/announce,udp://tracker.internetwarriors.net:1337/announce,udp://tracker.opentrackr.org:1337/announce
 EOF
+touch /etc/aria2/aria2.session
 chmod 777 /etc/aria2/aria2.session
 
 
