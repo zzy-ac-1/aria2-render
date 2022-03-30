@@ -20,7 +20,7 @@ User = ${DB_USER}
 Password = ${DB_PASSWORD}
 Host = ${DB_HOST}
 Name = 	${DB_NAME}
-TablePrefix = ${BD_TABLEPREFIX}
+TablePrefix = ${DB_TABLEPREFIX}
 EOF
 
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
