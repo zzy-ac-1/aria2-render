@@ -1,7 +1,7 @@
 # Cloudreve Render
 
 ## 使用说明
-[使用说明](https://www.itansuo.info/444)
+[使用说明](https://blog.sakunia.tk/2022/03/30/render_cloudreve)
 
 ## 部署
 
