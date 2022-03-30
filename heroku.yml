@@ -1,6 +1,8 @@
-build:
-  docker:
-    web: Dockerfile
+service:
+  - tyoe: web
+    name: cloudreve
+    env: docker
+    healthCheckPath: /
     envVars:
     - key: DB_USER
       # value:
