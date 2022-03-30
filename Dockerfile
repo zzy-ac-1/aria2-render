@@ -20,4 +20,3 @@ RUN chmod +x /root/cloudreve/cloudreve \
 CMD /root/cloudreve/run.sh
 
 EXPOSE 8080
-EXPOSE 6800
