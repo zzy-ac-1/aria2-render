@@ -5,11 +5,11 @@
 
 ## 部署
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ifuaer/cloudreve-heroku)
+[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ifuaer/cloudreve-heroku)
 
 ## 概述
 
-用于在 Heroku 上部署 [cloudreve](https://cloudreve.org/)
+用于在 Render 上部署 [cloudreve](https://cloudreve.org/)
 
 本镜像基于 debian:stable-slim
 
