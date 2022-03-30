@@ -2,13 +2,20 @@ services:
   - type: web
     name: cloudreve
     env: docker
+    repo: https://github.com/Sakura1943/cloudreve-hr.git
+    region: oregon
+    plan: free
     healthCheckPath: /
     envVars:
     - key: DB_USER
       # value:
+      sync: false
     - key: DB_PASSWORD
       # value:
+      sync: false
     - key: DB_NAME
       # value:
+      sync: false
     - key: DB_HOST
       # value:
+      sync: false
