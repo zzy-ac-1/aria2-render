@@ -19,3 +19,9 @@ services:
     - key: DB_HOST
       # value:
       sync: false
+    - key: DB_TYPE
+      # value:
+      sync: false
+    - key: BD_TABLEPREFIX
+      # value:
+      sync: false
