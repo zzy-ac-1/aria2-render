@@ -1,3 +1,14 @@
 build:
   docker:
     web: Dockerfile
+    envVars:
+    - key: DB_USER
+      # value:
+    - key: DB_PASSWORD
+      # value:
+    - key: DB_NAME
+      # value:
+    - key: DB_HOST
+      # value:
+    - key: DB_TYPE
+      # value:
