@@ -21,10 +21,6 @@ Password = ${DB_PASSWORD}
 Host = ${DB_HOST}
 Name = 	${DB_NAME}
 TablePrefix = ${BD_TABLEPREFIX}
-[Redis]
-Server = Redis地址：端口
-Password = Redis密码
-DB = 0
 EOF
 
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
