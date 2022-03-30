@@ -5,7 +5,7 @@
 
 ## 部署
 
-[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ifuaer/cloudreve-heroku)
+[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
 ## 概述
 
