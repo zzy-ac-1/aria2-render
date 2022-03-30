@@ -1,6 +1,6 @@
 #!/bin/sh
-apt update
-apt install aria2
+apt update -y
+apt install aria2 -y
 mkdir /etc/aria2
 mkdir /download
 
