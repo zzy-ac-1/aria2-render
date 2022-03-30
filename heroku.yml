@@ -12,5 +12,3 @@ service:
       # value:
     - key: DB_HOST
       # value:
-    - key: DB_TYPE
-      # value:
